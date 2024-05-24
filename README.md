@@ -146,3 +146,14 @@ With a POST request to http://localhost:8000/users/create/ with body contained u
 Then in the admin panel we can see the new user we just created.
 
 ![img.png](screenshots/image7.png)
+
+### Test 2:
+
+First we login as user1 that we just created.
+![img.png](screenshots/image8.png)
+
+Then we create a note with title1 and body1 using a POST request.
+![img.png](screenshots/image9.png)
+
+As we can see in the picture below the note we just created is here.
+![img.png](screenshots/image10.png)
