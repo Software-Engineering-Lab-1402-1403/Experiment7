@@ -167,3 +167,13 @@ We create note with title2 and body2 like this:
 
 We can see a list of all notes which we created before.
 ![img.png](screenshots/image12.png)
+
+### Test 5
+
+With this GET request we can delete the note with id=1.
+![img.png](screenshots/image13.png)
+
+### Test 6
+
+As we can see, the note with id 1 has been deleted successfully. The only available note is the note with id 2.
+![img.png](screenshots/image14.png)
