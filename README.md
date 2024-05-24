@@ -31,7 +31,29 @@ After that we are able to send requests to http://localhost:8000 from our comput
 
 ![img.png](screenshots/image2.png)
 
-## Explanations:
+### Migration
+
+First with command below move to the container core:
+```
+docker exec -it (container-ID) bash
+```
+Then run these command in order to create admin:
+```python
+python manage.py makemigrations
+python manage.py migrate
+```
+![img.png](screenshots/image3.png)
+
+```python
+python manage.py createsuperuser
+```
+![img.png](screenshots/image4.png)
+
+Now we can login to admin panel using url http://localhost:8000/admin/login and in my scenario admin='admin' and password='1234':
+
+![img.png](screenshots/image5.png)
+
+## Explanations
 
 ### Dockerfile
 
