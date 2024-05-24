@@ -134,3 +134,15 @@ We should change DATABASE field in Django settings file to connect our Postgres 
 - ENGINE shows the database engine we want to use as default.
 
 - Other attributes are set using the Env variables in the docker-compose file to avoid hardcode.
+
+## Test
+
+### Test 1:
+
+With a POST request to http://localhost:8000/users/create/ with body contained username and password, We created user1.
+
+![img.png](screenshots/image6.png)
+
+Then in the admin panel we can see the new user we just created.
+
+![img.png](screenshots/image7.png)
