@@ -157,3 +157,13 @@ Then we create a note with title1 and body1 using a POST request.
 
 As we can see in the picture below the note we just created is here.
 ![img.png](screenshots/image10.png)
+
+### Test 3
+
+We create note with title2 and body2 like this:
+![img.png](screenshots/image11.png)
+
+### Test 4
+
+We can see a list of all notes which we created before.
+![img.png](screenshots/image12.png)
