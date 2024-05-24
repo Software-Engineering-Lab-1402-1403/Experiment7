@@ -180,6 +180,24 @@ As we can see, the note with id 1 has been deleted successfully. The only availa
 
 ## Tasks
 
+### Task 1
+
+In this task we show containers and images using commands below respectively.
+```
+docker ps -a
+docker image ls
+```
+
+In this Picture two containers and first two images belong to our service.
+![img.png](screenshots/image15.png)
+
+### Task 2
+
+We should act just like the process we did in Migration part. We run the
+ ```ls``` 
+ command.
+![img.png](screenshots/image16.png)
+
 ## Questions
 
 ### 1
