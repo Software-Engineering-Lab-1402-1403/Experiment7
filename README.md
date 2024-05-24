@@ -177,3 +177,22 @@ With this GET request we can delete the note with id=1.
 
 As we can see, the note with id 1 has been deleted successfully. The only available note is the note with id 2.
 ![img.png](screenshots/image14.png)
+
+## Tasks
+
+## Questions
+
+### 1
+Dockerfile is a text file that contains instructions for how to build a Docker image. It specifies the steps that need to be taken to create a usable image, including what operating system to use, what software to install, and how to configure the image. Dockerfiles are used to automate the image building process, making it easier to create consistent and repeatable images.
+
+Images are read-only templates that contain the instructions for creating a container. They include the operating system, software, and configuration information that is needed to run an application. Images are stored in a Docker registry, which is a central repository for storing and distributing Docker images.
+
+Containers are running instances of Docker images. They are isolated environments that can run an application and all of its dependencies. Containers are created from images, and they share the image's read-only filesystem. This makes containers lightweight and portable, as they only contain the changes that are needed to run the application.
+### 2
+Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It groups containers into logical units called pods, which can be replicated and distributed across a cluster of nodes. Kubernetes also provides services for discovering and managing containers, and for load balancing traffic between them.
+
+Kubernetes can be used to manage Docker containers, as well as containers that are built with other containerization technologies. It is a powerful tool for deploying and managing complex applications at scale.
+
+Relationship between Docker and Kubernetes
+
+Docker and Kubernetes are complementary technologies that can be used together to build and manage containerized applications. Docker is used to build and package container images, while Kubernetes is used to deploy, scale, and manage those containers in production.
